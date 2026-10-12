@@ -21,5 +21,6 @@ s += [Paragraph("CARTA DE RECOMENDACIÓN", ParagraphStyle("t", fontName="Helveti
       Paragraph("Lourdes Lizbeth Huerta Villaseñor", ParagraphStyle("n", fontName="Helvetica-Bold", fontSize=12, alignment=TA_CENTER, spaceBefore=4)),
       Paragraph("Nombre y firma de la otorgante", ParagraphStyle("f", fontName="Helvetica", fontSize=10, alignment=TA_CENTER)),
       Spacer(1, 26),
+      Paragraph("<b>Teléfono:</b> 311 890 3298", ParagraphStyle("tel", fontName="Helvetica", fontSize=11, spaceAfter=4)),
       Paragraph("<b>Correo electrónico:</b> lizbethhuertavillasenor@gmail.com", ParagraphStyle("c", fontName="Helvetica", fontSize=11))]
 doc.build(s)
